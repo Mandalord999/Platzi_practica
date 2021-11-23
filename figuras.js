@@ -42,6 +42,7 @@ function areaTriangulo (base, altura){
 function diametroCirculo (radio){
     return radio * 2;
 } 
+
 //console.log("El diametro del circulo es: " + diametroCirculo);
 const PI = Math.PI;
 function perimetroCirculo (radio){
@@ -49,10 +50,12 @@ function perimetroCirculo (radio){
     return diametro * PI;
 }
 //console.log("El perimetro del circulo es: " + perimetroCirculo);
-const areaCirculo = (radioCirculo * radioCirculo) * PI;
+//const areaCirculo = (radioCirculo * radioCirculo) * PI;
 function areaCirculo(radio){
     return (radio * radio) * PI;
 }
+
+console.groupEnd();
 
 //console.log("El area del circulo es: " + areaCirculo);
 
