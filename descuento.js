@@ -19,7 +19,7 @@ function ClickCalculoPrecioDescuento(){
 
     const preConDescuento = calculoPrecioDescuento(precioValue,descuentoValue);
     const resultado = document.getElementById("resultadoPrecio");
-    resultado.innerText = "El precio de su producto es "+preConDescuento;
+    resultado.innerText = "El precio de su producto es $"+preConDescuento;
 
 }
 
