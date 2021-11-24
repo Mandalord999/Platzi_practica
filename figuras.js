@@ -69,8 +69,10 @@ function calcularAreaCuadrado(){
     const value = input.value;
     const area = areaCuadrado(value);
     alert(area);
-
 }
+
+
+
 
 
 
